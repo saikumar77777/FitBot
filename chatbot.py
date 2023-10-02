@@ -11,8 +11,8 @@ logger = logging.getLogger(__name__)
 load_dotenv('.env.list')
 
 # Now you can access the variables using os.environ
-openai_api_key = os.getenv('OPENAI_API_KEY')
-nut_api_key = os.getenv('NUT_API_KEY')
+openai_api_key = os.getenv('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')
+nut_api_key = os.getenv('6341d6d2-7989-4eac-aac0-35de90051407')
 
 # Instantiate FitnessAgent here so it remains open
 fitness_agent = FitnessAgent(openai_api_key, nut_api_key)
