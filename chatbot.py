@@ -15,7 +15,7 @@ openai_api_key = os.getenv('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'
 nut_api_key = os.getenv('6341d6d2-7989-4eac-aac0-35de90051407')
 
 # Instantiate FitnessAgent here so it remains open
-fitness_agent = FitnessAgent(openai_api_key, nut_api_key)
+fitness_agent = FitnessAgent('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','6341d6d2-7989-4eac-aac0-35de90051407')
 
 def get_response(message, history):
 
